@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+	<nav>
+		<ul class="navbar">
+			<li><a href="Jala Academy.html">Layout</a></li>
+
+		</ul>
+
+	</nav>
+	<br>
+	<br>
+
+
+	<div class="sidebar">
+		<h2>Magnus</h2>
+		<h2>
+			Guest User <br>User
+		</h2>
+		<ul>
+
+			<li><a href="login.jsp">Home</a></li>
+			<li class="dropdown"><a href="#services" class="dropdown-btn">Employee</a>
+				<ul class="dropdown-content">
+					<li><a href="Create.html">Create</a></li>
+					<li><a href="#app-development">Search</a></li>
+
+				</ul>
+			</li>
+			<li class="dropdown"><a href="#services" class="dropdown-btn">More</a>
+				<ul class="dropdown-content">
+					<li><a href="#web-development">Multiple Table</a></li>
+					<li><a href="#app-development">Menu</a></li>
+					<li><a href="#app-development">Auto complete</a></li>
+					<li><a href="#app-development">Collapsible Content</a></li>
+					<li><a href="#app-development">Images</a></li>
+					<li><a href="#app-development">Slider</a></li>
+					<li><a href="#app-development">Tooltips</a></li>
+					<li><a href="#app-development">Popups</a></li>
+					<li><a href="#app-development">Links</a></li>
+					<li><a href="#app-development">CSS Properties</a></li>
+					<li><a href="#app-development">IFrames</a></li>
+
+				</ul>
+			<li class="dropdown"><a href="#services" class="dropdown-btn">Settings</a>
+				<ul class="dropdown-content">
+
+
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div align="center">
+		<label id="Employee">Employee</label> <label id="create">Create</label>
+		<div id="pages">
+			<a class="link" href="Jala Academy.html">Home &nbsp &nbsp &nbsp ></a>
+			<a class="link" href="login.jsp">Employee &nbsp &nbsp &nbsp ></a> <a class="link"
+				href="Create.html">ADDEmployee &nbsp &nbsp &nbsp ></a>
+
+		</div>
+		<br>
+		<br>
+		<h2>Employee Details</h2>
+		<br>
+		<br>
+		<form id="loginForm" action="adminloginRegister" method="POST">
+			<label for="username">EmailAddress:</label> <input type="email" id="username" name="email" required> <label
+				for="password">MobileNumber:</label>
+			<input type="text" id="password" name="number" required>
+			<button type="submit">Login</button>
+		</form>
+
+	</div>
+</body>
+
+</html>

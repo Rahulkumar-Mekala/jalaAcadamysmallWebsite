@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jalaAcadamyjavatech">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/UserRegisterData"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/jalaLogin"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ViewDetails"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Editservecessupdate"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/AdminLogout"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/DeleteServices"/>
+        <property name="context-root" value="jalaAcadamyjavatech"/>
+        <property name="java-output-path" value="/jalaAcadamyjavatech/build/classes"/>
+    </wb-module>
+</project-modules>

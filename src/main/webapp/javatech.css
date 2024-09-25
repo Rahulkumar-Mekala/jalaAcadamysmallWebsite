@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+	background-color: #cfcfcf;
+	text-align: center;
+}
+
+h4 {
+	background-color: yellow;
+	text-align: center;
+	color: black;
+}
+
+#loginForm {
+	background: white;
+	text-align: center;
+	color: black;
+	padding: 30px;
+	width: 500px;
+	margin: auto;
+}
+
+#forgot {
+	padding: 5px;
+	background-color: #4a5eb5;
+	color: white;
+	text-decoration: none;
+}
+
+#demo {
+	background-color: #38bffa;
+	padding: 5px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#admin {
+	color: #00c600;
+	text-decoration: none;
+}
+
+#login {
+	background-color: #00cccc;
+	color: white;
+}
